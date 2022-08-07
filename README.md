@@ -21,10 +21,11 @@ $ npm install -g @vivliostyle/cli
 
 ### プレビューの表示
 
+docsフォルダをカレントフォルダにした状態で、 
 preview コマンドを指定すると、閲覧ができます。
 
 ```
-$ vivliostyle preview index.html
+DoubleWallAI\docs> vivliostyle preview index.html
 ```
 ![](https://vivliostyle.org/assets/projects/screenshot-cli.png)
 
@@ -36,5 +37,5 @@ Vivliostyle CLI について詳しくは [Vivliostyle CLI ユーザーガイド]
 ターミナルのコマンドラインから、build コマンドで HTML ファイルを指定すると、CSS 組版した PDFファイルを出力できます。
 
 ```
-$ vivliostyle build index.html
+DoubleWallAI\docs> vivliostyle build index.html
 ```
